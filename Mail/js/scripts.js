@@ -15,7 +15,7 @@ let emailIscritti = ['luca@email.com', 'marco@email.com', 'mattia@email.com', 's
 
 const emailUtente = prompt('Inserisci la tua EMail');
 
-const emailUtenteLow = emailUtente.toLowerCase();
+const emailUtenteLow = emailUtente.toLowerCase(); // non sembra funzionare correttamente
 
 for (let i = 0 ; i < 3; i++) {
 
